@@ -28,7 +28,7 @@ function isPalindrome(str) {
 }
 
 // Implementation
-const str = "abcd"; //str[i] !== str[j]
+const str = prompt("enter the palindrome word"); //str[i] !== str[j]
 const palindrome = isPalindrome(str);
 if (palindrome) {
   console.log(`The given string '${str}' is a palindrome string`);
